@@ -375,7 +375,7 @@ HERO PREMIUM
 
     position:relative;
 
-    min-height:100vh;
+    min-height:85vh;
 
     display:flex;
 
@@ -572,6 +572,55 @@ HERO PREMIUM
         transparent
 
     );
+
+}
+@media (max-width:900px){
+
+.hero{
+
+    min-height:auto;
+
+    padding:170px 0 90px;
+
+    background-position:center;
+
+}
+
+.hero-content{
+
+    text-align:center;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+    max-width:100%;
+
+}
+
+.hero-text{
+
+    width:100%;
+
+    margin:30px auto;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-buttons a{
+
+    width:100%;
+
+    max-width:340px;
+
+}
 
 }
 /*=========================================================
@@ -2880,6 +2929,23 @@ text-align:center;
 .footer-grid{
 
 grid-template-columns:1fr;
+
+}
+
+}
+@media (max-width:900px){
+
+.about h2,
+.services h2,
+.team-header h2,
+.products h2,
+.pricing h2,
+.contact h2,
+.location h2{
+
+    font-size:2.6rem;
+
+    line-height:1.1;
 
 }
 
