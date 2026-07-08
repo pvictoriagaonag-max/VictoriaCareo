@@ -1,0 +1,2077 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRUEBA12345</title>
+
+    <meta name="description"
+        content="Victoria Care es un espacio dedicado al cuidado profesional de tus pies mediante podología clínica, terapias complementarias y productos especializados en Morelia, Michoacán.">
+
+    <meta name="keywords"
+        content="Podología, Podóloga Morelia, Pedicure Clínico, Ventosas, Quiropraxia, Victoria Care">
+
+    <meta name="author" content="Victoria Gaona">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<header class="header">
+
+    <div class="container">
+
+        <a href="#" class="logo">
+            Victoria Care
+        </a>
+
+        <nav class="navbar">
+
+            <ul class="nav-links">
+
+                <li><a href="#inicio">Inicio</a></li>
+
+                <li><a href="#victoria">Victoria</a></li>
+
+                <li><a href="#servicios">Servicios</a></li>
+
+                <li><a href="#productos">Productos</a></li>
+
+                <li><a href="#contacto">Contacto</a></li>
+
+            </ul>
+
+            <a href="https://wa.me/524433941042" target="_blank" class="btn-header">
+                Agendar cita
+            </a>
+
+        </nav>
+
+    </div>
+
+</header> 
+<section class="hero" id="inicio">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="hero-category">
+            Podología Clínica · Terapias Complementarias · Productos Especializados
+        </p>
+
+        <h1>
+            Cada paso
+
+<br>
+
+merece
+
+<br>
+
+cuidado.
+        </h1>
+
+        <p class="hero-text">
+
+            Caminar sin dolor cambia la forma en que vivimos.
+
+            <br><br>
+
+            Por eso creé Victoria Care: un espacio donde encontrarás atención profesional,
+            cercana y personalizada para cuidar la salud de tus pies,
+            aliviar molestias y ayudarte a disfrutar cada paso con mayor comodidad
+            y confianza.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="https://wa.me/524433941042" target="_blank" class="btn-primary">
+
+                Agendar cita
+
+            </a>
+
+            <a href="#servicios" class="btn-secondary">
+
+                ¿Cómo puedo ayudarte?
+
+            </a>
+
+            <a href="#productos" class="btn-secondary">
+
+                Productos Victoria Care
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section> 
+
+<!-- =========================
+     SOBRE VICTORIA
+========================== -->
+
+<section class="about" id="victoria">
+
+    <div class="container about-grid">
+
+        <div class="about-text">
+
+            <span class="section-tag">
+                SOBRE MÍ
+            </span>
+
+            <h2>Hola, soy Victoria.</h2>
+
+            <p>
+                Creo que vivir sin dolor comienza con pequeños actos de cuidado.
+            </p>
+
+            <p>
+                Por eso nació Victoria Care: un espacio creado para ofrecer una atención profesional, cercana y personalizada, donde cada paciente pueda sentirse escuchado, acompañado y tratado con respeto.
+            </p>
+
+            <p>
+                Mi objetivo es ayudarte a caminar con mayor comodidad, aliviar molestias y hacer que el cuidado de tus pies forme parte de una mejor calidad de vida.
+            </p>
+
+            <p>
+                Creo en la formación continua porque cada nuevo conocimiento me permite brindarte una atención más completa y ofrecerte soluciones pensadas para tus necesidades.
+            </p>
+
+            <p class="signature">
+                Será un gusto acompañarte a cuidar de tus pies.
+            </p>
+
+        </div>
+
+        <div class="about-image">
+
+            <img
+                src="images/victoria-about.jpg"
+                alt="Victoria Gaona">
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     MI FILOSOFÍA
+========================== -->
+
+<section class="philosophy" id="filosofia">
+
+    <div class="container">
+
+        <span class="section-tag">
+            MI FILOSFÍA
+        </span>
+
+        <h2>
+            Cuidar de tus pies es cuidar de ti.
+        </h2>
+
+        <p class="section-intro">
+
+            Creo que cada persona merece ser escuchada antes de recibir cualquier tratamiento.
+
+            Por eso me gusta dedicar el tiempo necesario para conocer lo que necesitas, valorar cada caso con atención y elegir la mejor opción para ayudarte.
+
+            Mi objetivo no es solamente aliviar una molestia. Quiero que vuelvas a caminar con mayor comodidad, recuperar la confianza en cada paso y descubrir que cuidar de tus pies también es una forma de cuidar de ti.
+
+        </p>
+
+        <div class="philosophy-grid">
+
+            <article class="philosophy-card">
+
+                <h3>
+                    Salud
+                </h3>
+
+                <p>
+
+                    No trabajo pensando únicamente en tratar una molestia.
+
+                    Busco ayudarte a prevenir problemas, aliviar el dolor y mantener la salud de tus pies mediante tratamientos personalizados y un seguimiento pensado para ti.
+
+                </p>
+
+            </article>
+
+            <article class="philosophy-card">
+
+                <h3>
+                    Calidez
+                </h3>
+
+                <p>
+
+                    He creado este espacio para que te sientas tranquilo desde el momento en que llegas.
+
+                    Me gusta que cada consulta sea una experiencia cercana, donde puedas expresar tus dudas con confianza y recibir la atención que mereces.
+
+                </p>
+
+            </article>
+
+            <article class="philosophy-card">
+
+                <h3>
+                    Confianza
+                </h3>
+
+                <p>
+
+                    Cada persona recibe una valoración individual porque entiendo que ninguna historia es igual a otra.
+
+                    Por eso cada tratamiento está pensado específicamente para quien tengo frente a mí.
+
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section><!-- =========================
+     TRANSICIÓN
+========================== -->
+
+<section class="transition">
+
+    <div class="transition-image">
+
+        <img
+            src="images/service-experience-1.jpg"
+            alt="Victoria Care">
+
+    </div>
+
+    <div class="transition-text">
+
+        <p>
+
+            A veces ignoramos nuestros pies hasta que comienzan a pedir atención.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ===================================================
+                    SERVICIOS
+=================================================== -->
+
+<section class="services" id="servicios">
+
+    <div class="container">
+
+        <span class="section-tag">
+            SERVICIOS
+        </span>
+
+        <h2>
+            Estoy aquí para ayudarte cuando...
+        </h2>
+
+        <p class="section-intro">
+            Cada persona llega con una historia diferente.
+        </p>
+
+        <p class="section-intro">
+            Algunas buscan aliviar una molestia, otras recuperar la comodidad al caminar y muchas simplemente desean comenzar a cuidar de sus pies con mayor atención.
+        </p>
+
+        <p class="section-intro">
+            Mi compromiso es escucharte, comprender tus necesidades y acompañarte con un tratamiento personalizado para que vuelvas a sentirte cómodo en cada paso.
+        </p>
+
+    </div>
+
+</section>
+<!-- ===================================================
+                PEDICURE CLÍNICO
+=================================================== -->
+
+<section class="service-detail">
+
+    <div class="container service-grid">
+
+        <div class="service-image">
+
+            <img
+                src="images/service-pedicure.jpg"
+                alt="Pedicure Clínico Terapéutico">
+
+        </div>
+
+        <div class="service-text">
+
+            <p class="service-question">
+                Tus pies merecen un momento de atención.
+            </p>
+
+            <h2>
+                Pedicure Clínico Terapéutico
+            </h2>
+
+            <p>
+                Caminar con comodidad comienza por cuidar la salud de tus pies. Muchas molestias pueden prevenirse cuando reciben la atención adecuada y forman parte de una rutina constante de cuidado.
+            </p>
+
+            <p>
+                Antes de iniciar cualquier tratamiento realizo una valoración personalizada para conocer tus necesidades y ofrecerte la mejor alternativa para ti. Creo que cada persona merece un plan de atención diseñado de acuerdo con su historia y sus objetivos.
+            </p>
+
+            <p>
+                Durante la consulta trabajo cuidadosamente para atender durezas, callosidades, alteraciones en las uñas y otros cambios que pueden afectar la comodidad al caminar, siempre con un enfoque profesional, personalizado y respetuoso.
+            </p>
+
+            <a href="https://wa.me/524433941042"
+               target="_blank"
+               class="btn-primary">
+
+                Agendar mi valoración
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================================================
+           LIMPIEZA PROFUNDA DE UÑAS
+=================================================== -->
+
+<section class="service-detail">
+
+    <div class="container service-grid reverse">
+
+        <div class="service-text">
+
+            <p class="service-question">
+
+                Hay ocasiones en las que una uña necesita mucho más que un corte.
+
+            </p>
+
+            <h2>
+
+                Limpieza Profunda de Uñas
+
+            </h2>
+
+            <p>
+
+                Algunas alteraciones en las uñas requieren una atención más específica para recuperar su aspecto, favorecer su crecimiento y ayudar a mantener su salud.
+
+            </p>
+
+            <p>
+
+                Antes de iniciar el tratamiento realizo una valoración para conocer tu caso y elegir el procedimiento más adecuado según las necesidades de tus pies.
+
+            </p>
+
+            <p>
+
+                Mi prioridad es ofrecerte una atención cuidadosa, profesional y personalizada para que vuelvas a sentir comodidad y confianza al caminar.
+
+            </p>
+
+            <a href="https://wa.me/524433941042"
+               target="_blank"
+               class="btn-primary">
+
+                Agendar mi valoración
+
+            </a>
+
+        </div>
+
+        <div class="service-image">
+
+            <img
+                src="images/service-limpiezaprofunda.jpg"
+                alt="Limpieza Profunda de Uñas">
+
+        </div>
+
+    </div>
+
+</section><!-- ===================================================
+              VENTOSAS TERAPÉUTICAS
+=================================================== -->
+
+<section class="service-detail">
+
+    <div class="container service-grid">
+
+        <div class="service-image">
+
+            <img
+                src="images/service-ventosas.jpeg"
+                alt="Ventosas Terapéuticas">
+
+        </div>
+
+        <div class="service-text">
+
+            <p class="service-question">
+
+                Tu cuerpo también merece un momento para descansar.
+
+            </p>
+
+            <h2>
+
+                Ventosas Terapéuticas
+
+            </h2>
+
+            <p>
+
+                El ritmo diario, el estrés y la tensión muscular pueden acumularse poco a poco hasta convertirse en una sensación constante de cansancio e incomodidad.
+
+            </p>
+
+            <p>
+
+                Las ventosas terapéuticas forman parte de las técnicas complementarias que utilizo para favorecer la relajación muscular, estimular la circulación superficial y brindar una agradable sensación de alivio, siempre después de una valoración personalizada.
+
+            </p>
+
+            <p>
+
+                Mi propósito es ofrecerte un espacio tranquilo donde puedas hacer una pausa, liberar tensión y disfrutar un momento dedicado completamente a tu cuidado.
+
+            </p>
+
+            <a href="https://wa.me/524433941042"
+               target="_blank"
+               class="btn-primary">
+
+                Agendar mi valoración
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section><!-- ===================================================
+                    DETOX IÓNICO
+=================================================== -->
+
+<section class="service-detail">
+
+    <div class="container service-grid reverse">
+
+        <div class="service-text">
+
+            <p class="service-question">
+
+                También mereces regalarte un momento para ti.
+
+            </p>
+
+            <h2>
+
+                Detox Iónico
+
+            </h2>
+
+            <p>
+
+                En medio del ritmo diario, dedicar unos minutos al cuidado personal puede convertirse en una pausa que ayude a recuperar la sensación de calma y equilibrio.
+
+            </p>
+
+            <p>
+
+                Este tratamiento forma parte de las experiencias que ofrezco para quienes desean desconectarse por un momento, relajarse y disfrutar un espacio pensado para su cuidado.
+
+            </p>
+
+            <p>
+
+                Quiero que cada visita sea una oportunidad para detenerte, respirar y dedicar tiempo a lo más importante: tu salud y tu tranquilidad.
+
+            </p>
+
+            <a href="https://wa.me/524433941042"
+               target="_blank"
+               class="btn-primary">
+
+                Agendar mi valoración
+
+            </a>
+
+        </div>
+
+        <div class="service-image">
+
+            <img
+                src="images/service-detox.jpg"
+                alt="Detox Iónico">
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===================================================
+        ALIVIO MUSCULAR INTEGRAL
+=================================================== -->
+
+<section class="service-detail">
+
+    <div class="container service-grid">
+
+        <div class="service-image">
+
+            <img
+                src="images/service-quiropraxia.jpg"
+                alt="Alivio Muscular Integral">
+
+        </div>
+
+        <div class="service-text">
+
+            <p class="service-question">
+
+                Cuando el cuerpo descansa, cada movimiento se siente diferente.
+
+            </p>
+
+            <h2>
+
+                Alivio Muscular Integral
+
+            </h2>
+
+            <h3 class="service-subtitle">
+
+                Masaje terapéutico · Ventosas · Ajuste ligero
+
+            </h3>
+
+            <p>
+
+                Esta experiencia combina masaje terapéutico, ventosas y un ajuste ligero para ayudarte a liberar la tensión muscular, favorecer una mejor movilidad y regalarte un momento dedicado completamente al cuidado de tu cuerpo.
+
+            </p>
+
+            <p>
+
+                Antes de comenzar realizo una valoración personalizada para conocer tus necesidades y adaptar cada sesión de forma segura, cómoda y respetuosa.
+
+            </p>
+
+            <p>
+
+                Mi propósito es que salgas sintiéndote más ligero, con mayor comodidad para moverte y con la satisfacción de haber dedicado un momento a cuidar de ti.
+
+            </p>
+
+            <a href="https://wa.me/524433941042"
+               target="_blank"
+               class="btn-primary">
+
+                Agendar mi valoración
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================================================
+        EXPERIENCIAS VICTORIA CARE 2.0
+=================================================== -->
+
+<section class="packages" id="experiencias">
+
+    <div class="container">
+
+        <span class="section-tag">
+            EXPERIENCIAS VICTORIA CARE
+        </span>
+
+        <h2>
+            Regálate una experiencia de bienestar.
+        </h2>
+
+        <p class="section-intro">
+            Más que una combinación de tratamientos, cada experiencia ha sido diseñada para regalarte un momento de descanso, renovación y cuidado integral.
+        </p>
+
+        <div class="packages-grid">
+
+            <!-- EXPERIENCIA 1 -->
+
+            <article class="package-card">
+
+                <img src="images/experiencia 0.png"
+                     alt="Renovación Total"
+                     class="package-image">
+
+                <div class="package-content">
+
+                    <span class="package-badge">
+                        VICTORIA CARE SIGNATURE
+                    </span>
+
+                    <h3>
+                        Renovación Total
+                    </h3>
+
+                    <div class="package-price">
+
+                        $950
+
+                        <small>MXN</small>
+
+                    </div>
+
+                    <div class="package-tags">
+
+                        <span>Detox Iónico</span>
+
+                        <span>Pedicure Clínico</span>
+
+                        <span>Ventosas</span>
+
+                        <span>2 horas</span>
+
+                    </div>
+
+                    <p>
+
+                        Una experiencia pensada para renovar tu cuerpo y regalarte un momento de relajación profunda mientras cuidamos la salud de tus pies.
+
+                    </p>
+
+                    <a href="https://wa.me/524433941042"
+                       target="_blank"
+                       class="package-btn">
+
+                        Reservar experiencia
+
+                    </a>
+
+                </div>
+
+            </article>
+
+            <!-- EXPERIENCIA 2 -->
+
+            <article class="package-card">
+
+                <img src="images/experiencia2.png"
+                     alt="Descanso Profundo"
+                     class="package-image">
+
+                <div class="package-content">
+
+                    <span class="package-badge">
+                        VICTORIA CARE SIGNATURE
+                    </span>
+
+                    <h3>
+                        Descanso Profundo
+                    </h3>
+
+                    <div class="package-price">
+
+                        $850
+
+                        <small>MXN</small>
+
+                    </div>
+
+                    <div class="package-tags">
+
+                        <span>Pedicure Clínico</span>
+
+                        <span>Masaje Terapéutico</span>
+
+                        <span>Descarga Muscular</span>
+
+                        <span>2 horas</span>
+
+                    </div>
+
+                    <p>
+
+                        Ideal para aliviar la tensión muscular y disfrutar un momento dedicado completamente al bienestar y al descanso.
+
+                    </p>
+
+                    <a href="https://wa.me/524433941042"
+                       target="_blank"
+                       class="package-btn">
+
+                        Reservar experiencia
+
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===================================================
+        VICTORIA CARE COLLECTION
+=================================================== -->
+
+<section class="products" id="productos">
+
+    <div class="container">
+
+        <span class="section-tag">
+            VICTORIA CARE COLLECTION
+        </span>
+
+        <h2>
+            Productos que utilizo y recomiendo en consulta.
+        </h2>
+
+        <p class="section-intro">
+            Cada uno de estos productos forma parte de los cuidados que recomiendo a mis pacientes para prolongar los resultados obtenidos durante la consulta y favorecer la salud de sus pies desde casa.
+        </p>
+
+        <div class="products-grid">
+
+            <!-- ==========================================
+                    PRODUCTO 1
+            =========================================== -->
+
+            <article class="product-card">
+
+                <img
+                    src="images/products-desodoranteparapies.png"
+                    alt="Desodorante Mineral"
+                    class="product-image">
+
+                <div class="product-content">
+
+                    <span class="product-category">
+                        CUIDADO DIARIO
+                    </span>
+
+                    <h3>
+                        Desodorante Mineral
+                    </h3>
+
+                    <div class="product-price">
+                        $80 <small>MXN</small>
+                    </div>
+
+                    <p>
+                        Elaborado con piedra de alumbre natural. Ayuda a disminuir la sudoración, neutralizar el mal olor y aliviar molestias ocasionadas por el pie de atleta. También puede utilizarse en axilas y otras zonas del cuerpo.
+                    </p>
+
+                    <button
+                        class="product-btn open-product"
+
+                        data-name="Desodorante Mineral"
+
+                        data-price="$80 MXN"
+
+                        data-image="images/products-desodoranteparapies.png"
+
+                        data-category="Cuidado Diario"
+
+                        data-description="Desodorante elaborado con piedra de alumbre natural. Ayuda a disminuir la sudoración, neutralizar el mal olor y aliviar molestias ocasionadas por el pie de atleta. También puede utilizarse en axilas y otras zonas del cuerpo.">
+
+                        Conocer más
+
+                    </button>
+
+                </div>
+
+            </article>
+
+            <!-- ==========================================
+                    PRODUCTO 2
+            =========================================== -->
+
+            <article class="product-card">
+ 
+                <img
+                    src="images/products-desinfectantedecalzado.png"
+                    alt="Desinfectante para Calzado"
+                    class="product-image">
+
+                <div class="product-content">
+
+                    <span class="product-category">
+                        HIGIENE DEL CALZADO
+                    </span>
+
+                    <h3>
+                        Desinfectante para Calzado
+                    </h3>
+
+                    <div class="product-price">
+                        $120 <small>MXN</small>
+                    </div>
+
+                    <p>
+                        Ayuda a mantener el interior del calzado limpio e higiénico, favoreciendo un ambiente más saludable para tus pies.
+                    </p>
+
+                    <button
+                        class="product-btn open-product"
+
+                        data-name="Desinfectante para Calzado"
+
+                        data-price="$120 MXN"
+
+                        data-image="images/products-desinfectantedecalzado.png"
+
+                        data-category="Higiene del Calzado"
+
+                        data-description="Desinfectante diseñado para ayudar a mantener el interior del calzado limpio e higiénico, reduciendo la presencia de microorganismos y malos olores.">
+
+                        Conocer más
+
+                    </button>
+
+                </div>
+
+            </article>
+
+            <!-- ==========================================
+                    PRODUCTO 3
+            =========================================== -->
+
+            <article class="product-card">
+
+                <img
+                    src="images/products-bolsitadesinfectantedecalzado.png"
+                    alt="Bolsitas Desodorizantes"
+                    class="product-image">
+
+                <div class="product-content">
+
+                    <span class="product-category">
+                        CUIDADO NATURAL
+                    </span>
+
+                    <h3>
+                        Bolsitas Desodorizantes
+                    </h3>
+
+                    <div class="product-price">
+                        Próximamente
+                    </div>
+
+                    <p>
+                        Elaboradas con ingredientes naturales que ayudan a absorber la humedad y disminuir los malos olores del calzado. Ideales para uso diario.
+                    </p>
+
+                    <button
+                        class="product-btn open-product"
+
+                        data-name="Bolsitas Desodorizantes"
+
+                        data-price="Próximamente"
+
+                        data-image="images/products-bolsitadesinfectantedecalzado.png"
+
+                        data-category="Cuidado Natural"
+
+                        data-description="Bolsitas elaboradas con ingredientes naturales que ayudan a absorber la humedad y disminuir los malos olores del calzado.">
+
+                        Conocer más
+
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===================================================
+        INVERSIÓN EN TU BIENESTAR
+=================================================== -->
+
+<section class="pricing" id="precios">
+
+    <div class="container">
+
+        <span class="section-tag">
+
+            INVERSIÓN EN TU BIENESTAR
+
+        </span>
+
+        <h2>
+
+            Cada tratamiento está pensado para cuidar de ti con atención personalizada.
+
+        </h2>
+
+        <p class="section-intro">
+
+            Todos los servicios se realizan mediante valoración previa para ofrecerte la mejor alternativa de acuerdo con tus necesidades.
+
+        </p>
+
+        <!-- CUIDADO PODOLÓGICO -->
+
+        <div class="pricing-group">
+
+            <h3>Cuidado Podológico</h3>
+
+            <div class="price-row">
+                <span>Pedicure Clínico Terapéutico</span>
+                <strong>$350</strong>
+            </div>
+
+            <div class="price-description">
+                Prevención, higiene y cuidado integral para mantener la salud de tus pies.
+            </div>
+
+            <div class="price-row">
+                <span>Limpieza Profunda de Uñas</span>
+                <strong>$550</strong>
+            </div>
+
+            <div class="price-description">
+                Recomendada para uñas engrosadas o con acumulación importante de tejido.
+            </div>
+
+            <div class="price-row">
+                <span>Retiro de Acrocordones</span>
+                <strong>Desde $750</strong>
+            </div>
+
+            <div class="price-description">
+                Valoración personalizada según cantidad y tamaño.
+            </div>
+
+        </div>
+
+        <!-- BIENESTAR -->
+
+        <div class="pricing-group">
+
+            <h3>Bienestar Integral</h3>
+
+            <div class="price-row">
+                <span>Detox Iónico</span>
+                <strong>$350</strong>
+            </div>
+
+            <div class="price-description">
+                Incluye exfoliación de pies.
+            </div>
+
+            <div class="price-row">
+                <span>Ventosas Terapéuticas (Espalda)</span>
+                <strong>$350</strong>
+            </div>
+
+            <div class="price-description">
+                Terapia enfocada en relajación muscular.
+            </div>
+
+            <div class="price-row">
+                <span>Masaje Terapéutico + Ajuste Quiropráctico Ligero</span>
+                <strong>$500</strong>
+            </div>
+
+            <div class="price-description">
+                Ideal para disminuir tensión muscular y mejorar la movilidad.
+            </div>
+
+            <div class="price-row">
+                <span>Auriculoterapia</span>
+                <strong>$150</strong>
+            </div>
+
+            <div class="price-description">
+                Terapia complementaria mediante estimulación auricular.
+            </div>
+
+            <div class="price-row">
+                <span>Lavado de Oído</span>
+                <strong>$350</strong>
+            </div>
+
+            <div class="price-description">
+                Limpieza cuidadosa para retirar exceso de cerumen.
+            </div>
+
+        </div>
+
+        <!-- EXPERIENCIAS -->
+
+        <div class="pricing-group">
+
+            <h3>Experiencias Victoria Care</h3>
+
+            <div class="price-row">
+                <span>Renovación Total</span>
+                <strong>$950</strong>
+            </div>
+
+            <div class="price-row">
+                <span>Descanso Profundo</span>
+                <strong>$850</strong>
+            </div>
+
+        </div>
+
+        <!-- GIFT CARD -->
+
+        <div class="pricing-group">
+
+            <h3>Tarjeta de Regalo</h3>
+
+            <div class="price-row">
+                <span>Gift Card Victoria Care</span>
+                <strong>$500</strong>
+            </div>
+
+            <div class="price-description">
+
+                Vigencia de 12 meses.
+                Puede utilizarse en servicios o productos.
+                Ideal para cumpleaños, aniversarios o cualquier ocasión especial.
+
+            </div>
+
+        </div>
+
+        <!-- MEMBRESÍA -->
+
+        <div class="pricing-group membership">
+
+            <h3>
+
+                Victoria Care Club
+
+            </h3>
+
+            <h4>
+
+                Paciente Frecuente
+
+            </h4>
+
+            <div class="membership-price">
+
+                $250 <small>/ mes</small>
+
+            </div>
+
+            <ul>
+
+                <li>✔ Pedicure Clínico Terapéutico por <strong>$250</strong>.</li>
+
+                <li>✔ Masaje Terapéutico por <strong>$350</strong>.</li>
+
+                <li>✔ Prioridad para agendar citas.</li>
+
+                <li>✔ Promociones exclusivas para miembros.</li>
+
+                <li>✔ Regalo de cumpleaños: Detox Iónico.</li>
+
+            </ul>
+
+        </div>
+
+        <a href="https://wa.me/524433941042"
+           target="_blank"
+           class="btn-primary">
+
+            Agendar mi cita
+
+        </a>
+
+    </div>
+
+</section>
+<!-- ===================================================
+        CONTACTO
+=================================================== -->
+
+<section class="contact" id="contacto">
+
+    <div class="container">
+
+        <span class="section-tag">
+
+            CONTACTO
+
+        </span>
+
+        <h2>
+
+            Estoy lista para ayudarte.
+
+        </h2>
+
+        <p class="section-intro">
+
+            Será un gusto acompañarte en el cuidado de tus pies. Si tienes alguna duda, deseas agendar una cita o conocer cuál tratamiento es el más adecuado para ti, puedes comunicarte conmigo.
+
+        </p>
+
+        <div class="contact-wrapper">
+
+            <!-- AGENDA -->
+
+            <div class="contact-box">
+
+                <h3>
+
+                    Agenda tu cita
+
+                </h3>
+
+                <p>
+
+                    La atención es únicamente con cita previa para brindarte el tiempo y la dedicación que mereces.
+
+                </p>
+
+                <a
+                href="https://wa.me/524433941042"
+                target="_blank"
+                class="btn-primary">
+
+                    Agendar por WhatsApp
+
+                </a>
+
+            </div>
+
+            <!-- REDES -->
+
+            <div class="contact-box">
+
+                <h3>
+
+                    Sígueme
+
+                </h3>
+
+                <p>
+
+                    Comparte conmigo este espacio y conoce consejos, promociones y novedades de Victoria Care.
+
+                </p>
+
+                <div class="social-buttons">
+
+                    <a
+                    href="https://www.instagram.com/victoriacarepodologia"
+                    target="_blank"
+                    class="social-btn">
+
+                        Seguir en Instagram
+
+                    </a>
+
+                    <a
+                    href="#"
+                    target="_blank"
+                    class="social-btn">
+
+                        Seguir en Facebook
+
+                    </a>
+
+                    <a
+                    href="https://www.tiktok.com/@viktoriagaona"
+                    target="_blank"
+                    class="social-btn">
+
+                        Seguir en TikTok
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===================================================
+        UBICACIÓN
+=================================================== -->
+
+<section class="location" id="ubicacion">
+
+    <div class="container">
+
+        <span class="section-tag">
+
+            UBICACIÓN
+
+        </span>
+
+        <h2>
+
+            Será un gusto recibirte.
+
+        </h2>
+
+        <p class="section-intro">
+
+            Victoria Care es un espacio diseñado para brindarte una atención personalizada, tranquila y profesional. Todas las consultas se realizan únicamente con cita previa.
+
+        </p>
+
+        <div class="location-grid">
+
+            <!-- Información -->
+
+            <div class="location-card">
+
+                <h3>
+
+                    Victoria Care
+
+                </h3>
+
+                <div class="location-item">
+
+                    <h4>
+
+                        Dirección
+
+                    </h4>
+
+                    <p>
+
+                        Prolongación Nicolás Bravo 1755<br>
+                        Colonia Villa Universidad<br>
+                        Morelia, Michoacán, C.P. 58060
+
+                    </p>
+
+                </div>
+
+                <div class="location-item">
+
+                    <h4>
+
+                        Atención
+
+                    </h4>
+
+                    <p>
+
+                        Exclusivamente con cita previa.
+
+                    </p>
+
+                </div>
+
+                <div class="location-item">
+
+                    <h4>
+
+                        Acceso
+
+                    </h4>
+
+                    <p>
+
+                        Existen opciones de estacionamiento cercanas al consultorio para mayor comodidad.
+
+                    </p>
+
+                </div>
+
+                <a
+
+                    href="https://www.google.com/maps/place/C.+Nicol%C3%A1s+Bravo+1755,+Villa+Universidad,+58060+Morelia,+Mich./data=!4m2!3m1!1s0x842d0dd1391cf82d:0x3b5dffcb8c65052b?sa=X&ved=1t:242&ictx=111"
+
+                    target="_blank"
+
+                    class="btn-primary">
+
+                    Cómo llegar
+
+                </a>
+
+            </div>
+
+            <!-- Google Maps -->
+
+            <div class="location-map">
+
+                <iframe
+
+                    src="https://www.google.com/maps?q=Prolongación+Nicolás+Bravo+1755,+Villa+Universidad,+Morelia,+Michoacán&output=embed"
+
+                    loading="lazy"
+
+                    allowfullscreen
+
+                    referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===================================================
+        FOOTER
+=================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <h2>
+
+                Victoria Care
+
+            </h2>
+
+            <p>
+
+                Bienestar que te acompaña paso a paso.
+
+            </p>
+
+        </div>
+
+        <div class="footer-grid">
+
+            <!-- Navegación -->
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Explora
+
+                </h3>
+
+                <a href="#inicio">Inicio</a>
+
+                <a href="#victoria">Sobre mí</a>
+
+                <a href="#servicios">Servicios</a>
+
+                <a href="#productos">Productos</a>
+
+                <a href="#precios">Precios</a>
+
+                <a href="#contacto">Contacto</a>
+
+            </div>
+
+            <!-- Información -->
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Información
+
+                </h3>
+
+                <p>
+
+                    Prolongación Nicolás Bravo 1755
+
+                </p>
+
+                <p>
+
+                    Col. Villa Universidad
+
+                </p>
+
+                <p>
+
+                    Morelia, Michoacán
+
+                </p>
+
+                <br>
+
+                <p>
+
+                    Atención únicamente con cita previa.
+
+                </p>
+
+            </div>
+
+            <!-- Horarios -->
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Horarios
+
+                </h3>
+
+                <p>
+
+                    Lunes y Miércoles
+
+                    <br>
+
+                    5:00 p.m. – 7:00 p.m.
+
+                </p>
+
+                <br>
+
+                <p>
+
+                    Martes, Jueves y Viernes
+
+                    <br>
+
+                    5:00 p.m. – 9:00 p.m.
+
+                </p>
+
+                <br>
+
+                <p>
+
+                    Sábado
+
+                    <br>
+
+                    4:00 p.m. – 9:00 p.m.
+
+                </p>
+
+            </div>
+
+            <!-- Redes -->
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Conecta
+
+                </h3>
+
+                <a href="https://wa.me/524433941042" target="_blank">
+
+                    WhatsApp
+
+                </a>
+
+                <a href="https://www.instagram.com/victoriacarepodologia" target="_blank">
+
+                    Instagram
+
+                </a>
+
+                <a href="#" target="_blank">
+
+                    Facebook
+
+                </a>
+
+                <a href="https://www.tiktok.com/@viktoriagaona" target="_blank">
+
+                    TikTok
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                Gracias por confiar en el cuidado de tus pasos.
+
+            </p>
+
+            <p>
+
+                © 2026 Victoria Care · Todos los derechos reservados.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+<!-- ===================================================
+        MODAL PRODUCTO
+=================================================== -->
+
+<div class="product-modal" id="productModal">
+
+    <div class="product-modal-overlay"></div>
+
+    <div class="product-modal-content">
+
+        <button class="close-modal" id="closeModal">
+
+        </button>
+
+        <div class="modal-grid">
+
+            <!-- Imagen -->
+
+            <div class="modal-image">
+
+                <img
+                    id="modalImage"
+                    src=""
+                    alt="Producto Victoria Care">
+
+            </div>
+
+            <!-- Información -->
+
+            <div class="modal-info">
+
+                <span id="modalCategory"
+                      class="modal-category">
+
+                </span>
+
+                <h2 id="modalTitle">
+
+                </h2>
+
+                <div id="modalPrice"
+                     class="modal-price">
+
+                </div>
+
+                <p id="modalDescription">
+
+                </p>
+
+                <h4>
+
+                    Beneficios
+
+                </h4>
+
+                <ul class="modal-benefits">
+
+                    <li>✓ Producto recomendado durante la consulta.</li>
+
+                    <li>✓ Ideal para el cuidado diario.</li>
+
+                    <li>✓ Elaborado con ingredientes de alta calidad.</li>
+
+                </ul>
+
+                <h4>
+
+                    Cantidad
+
+                </h4>
+
+                <div class="quantity-selector">
+
+                    <button id="minusQty">
+
+                        −
+
+                    </button>
+
+                    <span id="quantity">
+
+                        1
+
+                    </span>
+
+                    <button id="plusQty">
+
+                        +
+
+                    </button>
+
+                </div>
+
+                <button class="buy-product" id="openCheckout">
+
+                Continuar con mi compra
+            </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ===================================================
+        CHECKOUT PREMIUM
+=================================================== -->
+
+<div class="checkout-modal" id="checkoutModal">
+
+    <div class="checkout-overlay"></div>
+
+    <div class="checkout-content">
+
+        <button class="close-checkout" id="closeCheckout">
+            ✕
+        </button>
+
+        <div class="checkout-header">
+
+            <span>RESUMEN DEL PEDIDO</span>
+
+            <h2>Finaliza tu compra</h2>
+
+            <p>
+                Completa tus datos para generar tu pedido.
+            </p>
+
+        </div>
+
+        <!-- =====================================
+                RESUMEN
+        ====================================== -->
+
+        <div class="checkout-summary">
+
+            <img
+                id="checkoutImage"
+                src=""
+                alt="Producto">
+
+            <h3 id="checkoutTitle"></h3>
+
+            <div
+                id="checkoutPrice"
+                class="checkout-price">
+            </div>
+
+            <div class="checkout-qty">
+
+                <button id="checkoutMinus">−</button>
+
+                <span id="checkoutQuantity">1</span>
+
+                <button id="checkoutPlus">+</button>
+
+            </div>
+
+            <div class="checkout-total">
+
+                <span>Total</span>
+
+                <strong id="checkoutTotal"></strong>
+
+            </div>
+
+        </div>
+
+        <!-- =====================================
+                FORMULARIO
+        ====================================== -->
+
+        <div class="checkout-form">
+
+            <h3>Tus datos</h3>
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Nombre completo">
+
+            <input
+                type="tel"
+                id="customerPhone"
+                placeholder="Teléfono">
+
+            <input
+                type="email"
+                id="customerEmail"
+                placeholder="Correo electrónico">
+
+            <h3>Entrega</h3>
+
+            <label>
+                <input
+                    type="radio"
+                    name="delivery"
+                    value="consultorio"
+                    checked>
+
+                Recoger en consultorio
+            </label>
+
+            <label>
+                <input
+                    type="radio"
+                    name="delivery"
+                    value="envio">
+
+                Envío a domicilio
+            </label>
+
+            <div
+                id="shippingFields"
+                class="shipping-fields">
+
+                <input type="text" id="state" placeholder="Estado">
+                <input type="text" id="city" placeholder="Municipio">
+                <input type="text" id="zip" placeholder="Código Postal">
+                <input type="text" id="street" placeholder="Calle">
+                <input type="text" id="number" placeholder="Número">
+
+                <textarea
+                    id="reference"
+                    placeholder="Referencias"></textarea>
+
+            </div>
+
+            <button
+                class="continue-payment"
+                id="continuePayment">
+
+                Continuar al pago
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+        <!-- ===================================================
+        PAGO
+=================================================== -->
+
+<div class="payment-modal" id="paymentModal">
+
+    <div class="checkout-overlay"></div>
+
+    <div class="payment-content">
+
+        <button
+            class="close-checkout"
+            id="closePayment">
+            ✕
+        </button>
+
+        <span class="section-tag">
+            TRANSFERENCIA BANCARIA
+        </span>
+
+        <h2>
+            Finaliza tu compra
+        </h2>
+
+        <p>
+            Realiza la transferencia y envíame tu comprobante.
+        </p>
+
+        <div class="bank-card">
+
+            <h3>BANORTE</h3>
+
+            <p>
+                <strong>Titular</strong><br>
+                Perla Victoria Gaona Gutiérrez
+            </p>
+
+            <p>
+                <strong>CLABE</strong>
+            </p>
+
+            <div class="clabe-box">
+
+                <span id="clabe">
+                    072470013546661558
+                </span>
+
+                <button id="copyClabe">
+                    Copiar
+                </button>
+
+            </div>
+
+        </div>
+
+        <button
+            class="continue-payment"
+            id="sendWhatsapp">
+
+            He realizado la transferencia
+
+        </button>
+
+    </div>
+
+</div>
+<!-- ===================================================
+        CONFIRMACIÓN DEL PEDIDO
+=================================================== -->
+
+<div class="success-modal" id="successModal">
+
+    <div class="checkout-overlay"></div>
+
+    <div class="success-content">
+
+        <div class="success-icon">
+            ✓
+        </div>
+
+        <span class="section-tag">
+            PEDIDO LISTO
+        </span>
+
+        <h2>
+            ¡Gracias por tu compra!
+        </h2>
+
+        <p>
+            Tu pedido ha sido preparado correctamente.
+            El siguiente paso es enviarme tu comprobante.
+        </p>
+
+        <button
+            class="continue-payment"
+            id="confirmWhatsapp">
+
+            Enviar comprobante por WhatsApp
+
+        </button>
+
+    </div>
+
+</div>
+
+
+
+            <!-- =====================================
+                    RESUMEN
+            ====================================== -->
+
+            <div class="checkout-summary">
+
+                <img
+                    id="checkoutImage"
+                    src=""
+                    alt="Producto">
+
+                <h3 id="checkoutTitle">
+
+                </h3>
+
+                <div
+                    id="checkoutPrice"
+                    class="checkout-price">
+
+                </div>
+
+                <div class="checkout-qty">
+
+                    <button
+                        id="checkoutMinus">
+
+                        −
+
+                    </button>
+
+                    <span
+                        id="checkoutQuantity">
+
+                        1
+
+                    </span>
+
+                    <button
+                        id="checkoutPlus">
+
+                        +
+
+                    </button>
+
+                </div>
+
+                <div class="checkout-total">
+
+                    <span>
+
+                        Total
+
+                    </span>
+
+                    <strong
+                        id="checkoutTotal">
+
+                    </strong>
+
+                </div>
+
+            </div>
+
+            <!-- =====================================
+                    FORMULARIO
+            ====================================== -->
+
+            <div class="checkout-form">
+
+                <h3>
+
+                    Tus datos
+
+                </h3>
+
+                <input
+                    type="text"
+                    id="customerName"
+                    placeholder="Nombre completo">
+
+                <input
+                    type="tel"
+                    id="customerPhone"
+                    placeholder="Teléfono">
+
+                <input
+                    type="email"
+                    id="customerEmail"
+                    placeholder="Correo electrónico">
+
+                <h3>
+
+                    Entrega
+
+                </h3>
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="delivery"
+                        value="consultorio"
+                        checked>
+
+                    Recoger en consultorio
+
+                </label>
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="delivery"
+                        value="envio">
+
+                    Envío a domicilio
+
+                </label>
+
+                <div
+                    id="shippingFields"
+                    class="shipping-fields">
+
+                    <input
+                        type="text"
+                        id="state"
+                        placeholder="Estado">
+
+                    <input
+                        type="text"
+                        id="city"
+                        placeholder="Municipio">
+
+                    <input
+                        type="text"
+                        id="zip"
+                        placeholder="Código Postal">
+
+                    <input
+                        type="text"
+                        id="street"
+                        placeholder="Calle">
+
+                    <input
+                        type="text"
+                        id="number"
+                        placeholder="Número">
+
+                    <textarea
+                        id="reference"
+                        placeholder="Referencias">
+
+                    </textarea>
+
+                </div>
+
+                <button
+                    class="continue-payment"
+                    id="continuePayment">
+
+                    Continuar al pago
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

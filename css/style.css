@@ -1,0 +1,2886 @@
+/*=========================================================
+ VICTORIA CARE
+ STYLE.CSS v1.0
+ Diseñado para Victoria Care
+ Autor: ChatGPT + Victoria Gaona
+=========================================================*/
+
+
+/*=========================================================
+VARIABLES
+=========================================================*/
+
+:root{
+
+    /* Colores principales */
+
+    --ivory:#F7F4EE;
+    --white:#FFFFFF;
+
+    --graphite:#2B2724;
+    --text:#5D5650;
+
+    --sage:#6F7B69;
+    --sage-dark:#59624F;
+
+    --champagne:#C2A06B;
+    --champagne-dark:#A88450;
+
+    --olive:#2E362D;
+    --olive-light:#384235;
+
+    --border:#E6DDD1;
+
+    --shadow:0 20px 45px rgba(0,0,0,.12);
+
+    --transition:.35s ease;
+
+}
+
+/*=========================================================
+RESET
+=========================================================*/
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--ivory);
+
+    color:var(--text);
+
+    overflow-x:hidden;
+
+    line-height:1.7;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+section{
+
+    padding:120px 0;
+
+}
+
+.container{
+
+    width:min(90%,1240px);
+
+    margin:auto;
+
+}
+
+
+/*=========================================================
+TIPOGRAFÍA
+=========================================================*/
+
+h1,h2,h3,h4{
+
+    font-family:'Cormorant Garamond',serif;
+    font-weight:500;
+    color:var(--graphite);
+    letter-spacing:.3px;
+
+}
+
+p{
+
+    font-size:1.05rem;
+
+}
+
+
+/*=========================================================
+BOTONES GLOBALES
+=========================================================*/
+
+.btn{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:18px 38px;
+
+    border-radius:999px;
+
+    transition:var(--transition);
+
+}
+
+.btn-primary{
+
+    background:var(--champagne);
+
+    color:#FFFFFF;
+
+    padding:20px 38px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.btn-primary:hover{
+
+    background:var(--champagne-dark);
+
+    transform:translateY(-4px);
+
+}
+
+.btn-secondary{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.35);
+
+    color:#FFFFFF;
+
+    padding:20px 38px;
+
+    border-radius:999px;
+
+    backdrop-filter:blur(12px);
+
+    transition:var(--transition);
+
+}
+
+.btn-secondary:hover{
+
+    background:rgba(255,255,255,.12);
+
+}
+/*=========================================================
+HEADER
+=========================================================*/
+
+.header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    padding:22px 0;
+
+    background:transparent;
+
+    transition:.35s ease;
+
+}
+
+.header-container{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    max-width:1280px;
+
+    margin:auto;
+
+    padding:0 40px;
+
+}
+
+/* LOGO */
+
+.logo{
+
+    flex-shrink:0;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:3rem;
+
+    font-weight:600;
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    text-shadow:0 2px 12px rgba(0,0,0,.35);
+
+}
+
+/* NAV */
+
+.navbar{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    width:100%;
+
+    margin-left:70px;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    align-items:center;
+
+    list-style:none;
+
+    gap:38px;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.nav-links a{
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    font-size:1rem;
+
+    font-weight:500;
+
+    text-shadow:0 2px 10px rgba(0,0,0,.35);
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--champagne);
+
+}
+
+/* BOTÓN */
+
+.btn-header{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:15px 34px;
+
+    border-radius:999px;
+
+    background:var(--champagne);
+
+    color:var(--graphite);
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.20);
+
+    transition:.3s;
+
+}
+
+.btn-header:hover{
+
+    transform:translateY(-3px);
+
+}
+/*--------------------
+HEADER AL HACER SCROLL
+--------------------*/
+
+.header.scrolled{
+
+    background:rgba(248,245,240,.95);
+
+    backdrop-filter:blur(14px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.header.scrolled .logo{
+
+    color:var(--graphite);
+
+    text-shadow:none;
+
+}
+
+.header.scrolled .nav-links a{
+
+    color:var(--graphite);
+
+    text-shadow:none;
+
+}
+/*=========================================================
+HERO PREMIUM
+=========================================================*/
+
+.hero{
+
+    position:relative;
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(8,8,8,.82) 0%,
+            rgba(8,8,8,.60) 28%,
+            rgba(8,8,8,.28) 55%,
+            rgba(8,8,8,.08) 100%
+        ),
+        url("../images/victoria-hero.jpg");
+
+    background-size:cover;
+
+    background-repeat:no-repeat;
+
+    background-position:115% center;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    width:min(90%,1240px);
+
+    margin:auto;
+
+    color:#ffffff;
+
+    padding-top:120px;
+
+}
+
+.hero-category{
+
+    text-transform:uppercase;
+
+    letter-spacing:5px;
+
+    font-size:.85rem;
+
+    color:rgba(255,255,255,.92);
+
+    margin-bottom:30px;
+
+}
+
+.hero h1{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:6rem;
+
+    line-height:.90;
+
+    max-width:520px;
+
+    margin-bottom:35px;
+
+    color:#ffffff;
+
+    text-shadow:0 12px 25px rgba(0,0,0,.30);
+
+}
+
+.hero-text{
+
+    width:480px;
+
+    max-width:100%;
+
+    font-size:1.15rem;
+
+    line-height:1.9;
+
+    color:rgba(255,255,255,.94);
+
+    margin-bottom:60px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    align-items:center;
+
+    gap:28px;
+
+}
+
+.hero-buttons a{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-width:220px;
+
+}
+
+.btn-primary{
+
+    background:var(--champagne);
+
+    color:var(--graphite);
+
+    padding:20px 38px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    box-shadow:0 18px 40px rgba(0,0,0,.18);
+
+    transition:.35s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 24px 55px rgba(0,0,0,.22);
+
+}
+
+.btn-secondary{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.35);
+
+    color:#ffffff;
+
+    padding:20px 38px;
+
+    border-radius:999px;
+
+    backdrop-filter:blur(12px);
+
+    transition:.35s;
+
+}
+
+.btn-secondary:hover{
+
+    background:rgba(255,255,255,.12);
+
+    border-color:var(--champagne);
+
+}
+
+.hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:0;
+
+    width:100%;
+
+    height:140px;
+
+    background:linear-gradient(
+
+        to top,
+
+        var(--ivory),
+
+        transparent
+
+    );
+
+}
+/*=========================================================
+SOBRE VICTORIA
+=========================================================*/
+
+.about{
+
+    background:#F8F6F1;
+
+}
+
+.about-grid{
+
+    display:block;
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    color:#8E8E8E;
+
+    font-size:.85rem;
+
+    margin-bottom:20px;
+
+}
+
+.about h2{
+
+    color:#2F2F2F;
+
+    font-size:4.5rem;
+
+    margin-bottom:40px;
+
+    line-height:1.05;
+
+}
+
+.about p{
+
+    color:var(--text);
+    font-size:1.08rem;
+    line-height:2.05;
+    margin-bottom:24px;
+
+}
+
+.signature{
+
+    margin-top:45px;
+
+    font-weight:600;
+
+    color:#2F2F2F;
+
+    font-size:1.15rem;
+
+}
+/*======================================
+TRANSICIÓN
+======================================*/
+
+.transition{
+
+    position:relative;
+
+    width:100%;
+
+    height:100vh;
+
+    overflow:hidden;
+
+}
+
+.transition-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+.transition::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        rgba(0,0,0,.42),
+        rgba(0,0,0,.42)
+    );
+
+}
+
+.transition-text{
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+.transition-text p{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:clamp(3rem,6vw,5.8rem);
+
+    font-weight:500;
+
+    line-height:1.15;
+
+    color:#F8F5F0;
+
+    max-width:900px;
+
+    text-shadow:0 12px 35px rgba(0,0,0,.35);
+
+}
+
+/*======================================
+SERVICIOS
+======================================*/
+
+.services{
+
+    background:#2F372C;
+    padding:180px 0 130px;
+
+}
+
+.services .container{
+
+    max-width:1100px;
+    margin:0 auto;
+    text-align:left;
+
+}
+
+.services .section-tag{
+
+    display:inline-block;
+    color:#C6A46D;
+    letter-spacing:6px;
+    text-transform:uppercase;
+    font-size:.92rem;
+    font-weight:600;
+    margin-bottom:28px;
+
+}
+
+.services h2{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(3.8rem,5vw,5rem);
+    font-weight:500;
+    color:#F8F5F0;
+    line-height:1.08;
+    margin-bottom:42px;
+    max-width:850px;
+
+}
+
+.services .section-intro{
+
+    max-width:900px;
+    color:#DDD6CA;
+    font-size:1.15rem;
+    font-weight:300;
+    line-height:2.05;
+    margin-bottom:20px;
+
+}
+
+/*======================================
+DETALLE DE SERVICIOS
+======================================*/
+
+.service-detail{
+
+    background:#2F372C;
+    padding:140px 0;
+
+}
+
+.service-grid{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:100px;
+
+}
+
+.service-grid.reverse .service-image{
+
+    order:2;
+
+}
+
+.service-grid.reverse .service-text{
+
+    order:1;
+
+}
+
+.service-image img{
+
+    width:100%;
+    display:block;
+    border-radius:36px;
+    box-shadow:0 35px 80px rgba(0,0,0,.30);
+
+}
+
+.service-text{
+
+    max-width:560px;
+
+}
+
+.service-number{
+
+    display:block;
+    font-size:.85rem;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    color:#C6A46D;
+    margin-bottom:18px;
+
+}
+
+.service-question{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(3rem,5vw,4.4rem);
+    line-height:1.08;
+    font-weight:500;
+    color:#F8F5F0;
+    margin-bottom:28px;
+
+}
+
+.service-text h2{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:2.4rem;
+    font-weight:500;
+    color:#C6A46D;
+    margin-bottom:20px;
+
+}
+
+.service-subtitle{
+
+    font-family:'Poppins',sans-serif;
+    font-size:.95rem;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#E3CAA0;
+    margin-bottom:28px;
+
+}
+
+.service-text p{
+
+    color:#E6DED2;
+    font-size:1.08rem;
+    line-height:2;
+    margin-bottom:22px;
+
+}
+
+.service-text strong{
+
+    color:#FFFFFF;
+
+}
+
+.service-text .btn-primary{
+
+    background:#C6A46D;
+    color:#2F2A27;
+
+}
+
+.service-text .btn-primary:hover{
+
+    background:#A88450;
+    color:#FFFFFF;
+    transform:translateY(-3px);
+
+}
+
+/*======================================
+EXPERIENCIAS VICTORIA CARE 2.0
+======================================*/
+
+.packages{
+
+    background:#F7F3ED;
+
+    padding:180px 0;
+
+}
+
+.packages .container{
+
+    max-width:1280px;
+
+    margin:auto;
+
+}
+
+.packages .section-tag{
+
+    display:block;
+
+    text-align:center;
+
+    color:#B58B53;
+
+    letter-spacing:5px;
+
+    text-transform:uppercase;
+
+    font-size:.90rem;
+
+    margin-bottom:25px;
+
+}
+
+.packages h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:clamp(3.2rem,5vw,4.8rem);
+
+    font-weight:500;
+
+    color:#2F2A27;
+
+    text-align:center;
+
+    line-height:1.05;
+
+    margin-bottom:35px;
+
+}
+
+.packages .section-intro{
+
+    max-width:850px;
+
+    margin:0 auto 90px;
+
+    text-align:center;
+
+    color:#555;
+
+    font-size:1.15rem;
+
+    line-height:2;
+
+}
+
+.packages-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,minmax(0,1fr));
+
+    gap:50px;
+
+    align-items:stretch;
+
+}
+
+.package-card{
+
+    background:#FCFBF8;
+
+    border-radius:34px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    flex-direction:column;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.08);
+
+    transition:.35s ease;
+
+    border:1px solid rgba(0,0,0,.05);
+
+}
+
+.package-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 40px 80px rgba(0,0,0,.14);
+
+}
+
+.package-image{
+
+    width:100%;
+
+    height:420px;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    display:block;
+
+}
+
+.package-content{
+
+    padding:42px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    flex:1;
+
+}
+
+.package-badge{
+
+    display:inline-block;
+
+    align-self:flex-start;
+
+    background:#EFE6D8;
+
+    color:#9A7446;
+
+    padding:10px 18px;
+
+    border-radius:50px;
+
+    letter-spacing:2px;
+
+    font-size:.78rem;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.package-card h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:2.8rem;
+
+    font-weight:500;
+
+  color:var(--graphite);
+
+    line-height:1;
+
+    margin-bottom:20px;
+
+}
+
+.package-price{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:3.5rem;
+
+    color:var(--champagne);
+
+    margin-bottom:30px;
+
+    line-height:1;
+
+}
+
+.package-price small{
+
+    font-family:'Poppins',sans-serif;
+
+    font-size:1rem;
+
+    color:#777;
+
+    margin-left:6px;
+
+}
+
+.package-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-bottom:35px;
+
+}
+
+.package-tags span{
+
+    background:#F5F0E8;
+
+    color:#7A6244;
+
+    padding:10px 18px;
+
+    border-radius:40px;
+
+    font-size:.92rem;
+
+    font-weight:500;
+
+}
+
+.package-content p{
+
+    color:var(--text);
+
+    line-height:1.9;
+
+    margin-bottom:35px;
+
+}
+
+.package-btn{
+
+    margin-top:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    width:100%;
+
+    background:#B58B53;
+
+    color:#FFFFFF;
+
+    padding:18px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.35s ease;
+
+}
+
+.package-btn:hover{
+
+    background:#9E784B;
+
+    transform:translateY(-2px);
+
+}
+
+@media (max-width:980px){
+
+    .packages-grid{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+    .package-image{
+
+        height:300px;
+
+    }
+
+    .package-content{
+
+        padding:35px;
+
+    }
+
+}
+/*======================================
+VICTORIA CARE COLLECTION
+======================================*/
+
+.products{
+
+    background:#F7F3ED;
+    padding:180px 0;
+
+}
+
+.products .container{
+
+    max-width:1280px;
+    margin:0 auto;
+
+}
+
+.products .section-tag{
+
+    display:block;
+    text-align:center;
+    color:#B58B53;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    font-size:.90rem;
+    font-weight:600;
+    margin-bottom:25px;
+
+}
+
+.products h2{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(3.2rem,5vw,4.8rem);
+    font-weight:500;
+    color:#2F2A27;
+    text-align:center;
+    line-height:1.05;
+    margin-bottom:35px;
+
+}
+
+.products .section-intro{
+
+    max-width:850px;
+    margin:0 auto 90px;
+    text-align:center;
+    color:#5E5853;
+    font-size:1.15rem;
+    line-height:2;
+
+}
+
+.products-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:40px;
+    align-items:stretch;
+
+}
+
+.product-card{
+
+    background:#FCFBF8;
+    border-radius:34px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    box-shadow:0 20px 55px rgba(0,0,0,.08);
+    border:1px solid rgba(0,0,0,.05);
+    transition:.35s ease;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 35px 80px rgba(0,0,0,.15);
+
+}
+
+.product-image{
+
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+
+}
+
+.product-content{
+
+    padding:35px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+
+}
+
+.product-category{
+
+    display:inline-block;
+    align-self:flex-start;
+    background:#EFE6D8;
+    color:#9A7446;
+    padding:10px 18px;
+    border-radius:50px;
+    letter-spacing:2px;
+    font-size:.78rem;
+    font-weight:600;
+    margin-bottom:22px;
+
+}
+
+.product-card h3{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:2.2rem;
+    font-weight:500;
+    color:#2F2A27;
+    margin-bottom:18px;
+    line-height:1.1;
+
+}
+
+.product-price{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:2.8rem;
+    color:#C2A06B;
+    margin-bottom:24px;
+    line-height:1;
+
+}
+
+.product-price small{
+
+    font-family:'Poppins',sans-serif;
+    font-size:1rem;
+    color:#777;
+    margin-left:6px;
+
+}
+
+.product-content p{
+
+    color:#5E5853;
+    line-height:1.9;
+    margin-bottom:30px;
+    flex:1;
+
+}
+
+.product-btn{
+
+    width:100%;
+    border:none;
+    background:#B58B53;
+    color:#FFFFFF;
+    padding:18px;
+    border-radius:50px;
+    font-size:1rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:.35s ease;
+
+}
+
+.product-btn:hover{
+
+    background:#9E784B;
+    transform:translateY(-3px);
+
+}
+/*======================================
+MODAL PRODUCTO
+======================================*/
+
+.product-modal{
+
+    position:fixed;
+
+    inset:0;
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:99999;
+
+}
+
+.product-modal.active{
+
+    display:flex;
+
+}
+
+.product-modal-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.72);
+
+    backdrop-filter:blur(8px);
+
+}
+
+.product-modal-content{
+
+    position:relative;
+
+    width:min(1180px,92%);
+
+    background:#FFFFFF;
+
+    border-radius:36px;
+
+    overflow:visible;
+
+    z-index:2;
+
+    box-shadow:0 40px 100px rgba(0,0,0,.35);
+
+}
+
+.modal-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+.modal-image{
+
+    background:#F7F4EE;
+
+}
+
+.modal-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.modal-info{
+
+    padding:60px;
+
+    max-height:85vh;
+
+    overflow-y:auto;
+
+}
+
+.modal-category{
+
+    display:inline-block;
+
+    background:#EFE6D8;
+
+    color:#9A7446;
+
+    padding:10px 18px;
+
+    border-radius:50px;
+
+    letter-spacing:2px;
+
+    font-size:.80rem;
+
+    margin-bottom:25px;
+
+}
+
+.modal-info h2{
+
+    font-size:3.2rem;
+
+    margin-bottom:20px;
+
+}
+
+.modal-price{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:3rem;
+
+    color:#C2A06B;
+
+    margin-bottom:25px;
+
+}
+
+.modal-info p{
+
+    line-height:2;
+
+    color:#555;
+
+    margin-bottom:30px;
+
+}
+
+.modal-info h4{
+
+    margin:35px 0 18px;
+
+    font-size:1.2rem;
+
+}
+
+.modal-benefits{
+
+    padding-left:20px;
+
+    margin-bottom:35px;
+
+}
+
+.modal-benefits li{
+
+    list-style:disc;
+
+    margin-bottom:10px;
+
+}
+
+.quantity-selector{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+    margin-bottom:40px;
+
+}
+
+.quantity-selector button{
+
+    width:46px;
+
+    height:46px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#F3ECE1;
+
+    font-size:1.5rem;
+
+    cursor:pointer;
+
+}
+
+.buy-product{
+
+    width:100%;
+
+    border:none;
+
+    padding:20px;
+
+    border-radius:50px;
+
+    background:#C2A06B;
+
+    color:#FFFFFF;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.buy-product:hover{
+
+    background:#A88450;
+
+}
+
+.close-modal{
+
+    position:absolute;
+
+    right:25px;
+
+    top:25px;
+
+    width:46px;
+
+    height:46px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#F3ECE1;
+
+    cursor:pointer;
+
+    font-size:28px;
+
+    font-weight:300;
+
+    color:#6B5842;
+
+    line-height:46px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.close-modal:hover{
+
+    background:#C2A06B;
+
+    color:#FFFFFF;
+
+}
+/*======================================
+RESPONSIVE PRODUCTOS
+======================================*/
+
+@media(max-width:1100px){
+
+    .products-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .products{
+
+        padding:120px 0;
+
+    }
+
+    .products-grid{
+
+        grid-template-columns:1fr;
+        gap:35px;
+
+    }
+
+    .product-image{
+
+        height:280px;
+
+    }
+
+    .product-content{
+
+        padding:30px;
+
+    }
+
+}
+
+/*=========================================================
+INVERSIÓN EN TU BIENESTAR
+=========================================================*/
+
+.pricing{
+
+    padding:180px 0;
+
+    background:#F8F5F0;
+
+}
+
+.pricing .container{
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+.pricing .section-tag{
+
+    display:block;
+
+    text-align:center;
+
+    color:#C6A46D;
+
+    letter-spacing:3px;
+
+    font-size:.85rem;
+
+    margin-bottom:20px;
+
+}
+
+.pricing h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:clamp(2.8rem,5vw,4.6rem);
+
+    text-align:center;
+
+    color:#2F2A27;
+
+    margin-bottom:25px;
+
+}
+
+.pricing .section-intro{
+
+    max-width:760px;
+
+    margin:0 auto 80px;
+
+    text-align:center;
+
+    color:#666;
+
+    line-height:2;
+
+}
+
+/*=========================
+GRUPOS
+=========================*/
+
+.pricing-group{
+
+    background:#FFFFFF;
+
+    border-radius:30px;
+
+    padding:45px;
+
+    margin-bottom:40px;
+
+    box-shadow:0 15px 50px rgba(0,0,0,.05);
+
+    transition:.35s;
+
+}
+
+.pricing-group:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 70px rgba(0,0,0,.08);
+
+}
+
+.pricing-group h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:2.2rem;
+
+    color:#2F2A27;
+
+    margin-bottom:35px;
+
+}
+
+.price-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 0 8px;
+
+}
+
+.price-row span{
+
+    font-weight:600;
+
+    color:#2F2A27;
+
+    font-size:1.08rem;
+
+}
+
+.price-row strong{
+
+    color:#C6A46D;
+
+    font-size:1.45rem;
+
+}
+
+.price-description{
+
+    color:#777;
+
+    line-height:1.8;
+
+    padding-bottom:25px;
+
+    margin-bottom:20px;
+
+    border-bottom:1px solid #ECECEC;
+
+}
+
+.price-row:last-of-type + .price-description{
+
+    border:none;
+
+    margin-bottom:0;
+
+}
+
+/*=========================
+MEMBRESÍA
+=========================*/
+
+.membership{
+
+    text-align:center;
+
+    background:linear-gradient(135deg,#2F372C,#465140);
+
+    color:#FFFFFF;
+
+}
+
+.membership h3{
+
+    color:#FFFFFF;
+
+}
+
+.membership h4{
+
+    color:#D6C39B;
+
+    margin-bottom:20px;
+
+    font-weight:400;
+
+}
+
+.membership-price{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:4rem;
+
+    color:#C6A46D;
+
+    margin:30px 0;
+
+}
+
+.membership-price small{
+
+    font-size:1rem;
+
+    color:#DDD;
+
+}
+
+.membership ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:40px 0;
+
+}
+
+.membership li{
+
+    margin-bottom:18px;
+
+    color:#F3F3F3;
+
+    line-height:1.8;
+
+}
+
+/*=========================
+BOTÓN
+=========================*/
+
+.pricing .btn-primary{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:60px auto 0;
+
+}
+
+/*=========================
+RESPONSIVE
+=========================*/
+
+@media(max-width:768px){
+
+.pricing{
+
+padding:120px 0;
+
+}
+
+.pricing-group{
+
+padding:30px;
+
+}
+
+.price-row{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:10px;
+
+}
+
+.price-row strong{
+
+font-size:2rem;
+
+}
+
+.membership-price{
+
+font-size:3rem;
+
+}
+
+}
+/*=========================================================
+CONTACTO
+=========================================================*/
+
+.contact{
+
+    background:#2F372C;
+
+    padding:180px 0;
+
+}
+
+.contact .container{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.contact .section-tag{
+
+    display:block;
+
+    color:#C6A46D;
+
+    letter-spacing:5px;
+
+    text-transform:uppercase;
+
+    font-size:.9rem;
+
+    margin-bottom:25px;
+
+}
+
+.contact h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:clamp(3rem,5vw,4.8rem);
+
+    color:#F8F5F0;
+
+    margin-bottom:30px;
+
+    line-height:1.1;
+
+}
+
+.contact .section-intro{
+
+    max-width:760px;
+
+    margin:0 auto 80px;
+
+    color:#DDD6CA;
+
+    line-height:2;
+
+    font-size:1.08rem;
+
+}
+
+.contact-wrapper{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+}
+
+.contact-box{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:34px;
+
+    padding:55px 45px;
+
+    transition:.35s ease;
+
+}
+
+.contact-box:hover{
+
+    transform:translateY(-8px);
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.contact-box h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:2.3rem;
+
+    color:#C6A46D;
+
+    margin-bottom:22px;
+
+}
+
+.contact-box p{
+
+    color:#ECE6DB;
+
+    line-height:2;
+
+    margin-bottom:35px;
+
+}
+
+/*=========================
+BOTONES REDES
+=========================*/
+
+.social-buttons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.social-btn{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    width:100%;
+
+    padding:18px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    background:transparent;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    color:#FFFFFF;
+
+    transition:.35s ease;
+
+    font-weight:500;
+
+}
+
+.social-btn:hover{
+
+    background:#C6A46D;
+
+    color:#2F2A27;
+
+    border-color:#C6A46D;
+
+    transform:translateY(-2px);
+
+}
+
+/*=========================
+BOTÓN WHATSAPP
+=========================*/
+
+.contact .btn-primary{
+
+    width:100%;
+
+    justify-content:center;
+
+}
+
+/*=========================
+RESPONSIVE
+=========================*/
+
+@media(max-width:900px){
+
+.contact{
+
+padding:120px 0;
+
+}
+
+.contact-wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+.contact-box{
+
+padding:40px 30px;
+
+}
+
+}
+/*=========================================================
+UBICACIÓN
+=========================================================*/
+
+.location{
+
+    background:#F8F5F0;
+
+    padding:180px 0;
+
+}
+
+.location .container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+.location .section-tag{
+
+    display:block;
+
+    text-align:center;
+
+    color:#C6A46D;
+
+    letter-spacing:5px;
+
+    text-transform:uppercase;
+
+    font-size:.9rem;
+
+    margin-bottom:20px;
+
+}
+
+.location h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:clamp(3rem,5vw,4.8rem);
+
+    text-align:center;
+
+    color:#2F2A27;
+
+    margin-bottom:30px;
+
+}
+
+.location .section-intro{
+
+    max-width:760px;
+
+    margin:0 auto 80px;
+
+    text-align:center;
+
+    color:#666;
+
+    line-height:2;
+
+}
+
+.location-grid{
+
+    display:grid;
+
+    grid-template-columns:430px 1fr;
+
+    gap:50px;
+
+    align-items:center;
+
+}
+
+.location-card{
+
+    background:#FFFFFF;
+
+    border-radius:34px;
+
+    padding:50px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.06);
+
+}
+
+.location-card h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:2.5rem;
+
+    color:#2F2A27;
+
+    margin-bottom:35px;
+
+}
+
+.location-item{
+
+    margin-bottom:35px;
+
+}
+
+.location-item h4{
+
+    color:#C6A46D;
+
+    font-size:.92rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    margin-bottom:12px;
+
+}
+
+.location-item p{
+
+    color:#666;
+
+    line-height:1.9;
+
+}
+
+.location-card .btn-primary{
+
+    margin-top:20px;
+
+    width:100%;
+
+    justify-content:center;
+
+}
+
+.location-map iframe{
+
+    width:100%;
+
+    height:600px;
+
+    border:none;
+
+    border-radius:34px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.08);
+
+}
+
+@media(max-width:980px){
+
+.location{
+
+padding:120px 0;
+
+}
+
+.location-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.location-map iframe{
+
+height:420px;
+
+}
+
+}
+/*=========================================================
+FOOTER
+=========================================================*/
+
+.footer{
+
+    background:#242B22;
+
+    padding:120px 0 50px;
+
+}
+
+.footer-top{
+
+    text-align:center;
+
+    margin-bottom:80px;
+
+}
+
+.footer-top h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:3.5rem;
+
+    color:#F8F5F0;
+
+    margin-bottom:18px;
+
+}
+
+.footer-top p{
+
+    color:#CFC7BB;
+
+    font-size:1.05rem;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:50px;
+
+}
+
+.footer-column h3{
+
+    color:#C6A46D;
+
+    font-size:1rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    margin-bottom:25px;
+
+}
+
+.footer-column a{
+
+    display:block;
+
+    color:#EAE5DD;
+
+    text-decoration:none;
+
+    margin-bottom:14px;
+
+    transition:.3s;
+
+}
+
+.footer-column a:hover{
+
+    color:#C6A46D;
+
+}
+
+.footer-column p{
+
+    color:#CFC7BB;
+
+    line-height:1.9;
+
+}
+
+.footer-divider{
+
+    height:1px;
+
+    background:rgba(255,255,255,.08);
+
+    margin:80px 0 40px;
+
+}
+
+.footer-bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.footer-bottom p{
+
+    color:#BEB7AC;
+
+    font-size:.95rem;
+
+}
+
+@media(max-width:900px){
+
+.footer{
+
+padding:90px 0 40px;
+
+}
+
+.footer-grid{
+
+grid-template-columns:1fr 1fr;
+
+gap:40px;
+
+}
+
+.footer-bottom{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+}
+/*==================================================
+                TEAM
+==================================================*/
+
+.team{
+
+    padding:150px 0;
+
+    background:#ffffff;
+
+}
+
+.team-header{
+
+    max-width:900px;
+
+    margin:0 auto 120px;
+
+    text-align:center;
+
+}
+
+.team-header h2{
+
+    font-size:4rem;
+
+    margin:25px 0;
+
+}
+
+.team-member{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:90px;
+
+    align-items:center;
+
+    margin-bottom:140px;
+
+}
+
+.team-member.reverse{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+.team-photo img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:34px;
+
+    box-shadow:0 35px 90px rgba(0,0,0,.12);
+
+}
+
+.team-info h3{
+
+    font-size:3rem;
+
+    margin:20px 0;
+
+}
+
+.team-highlight{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:2rem;
+
+    color:#C2A06B;
+
+    line-height:1.5;
+
+    margin-bottom:35px;
+
+}
+
+.team-info p{
+
+    line-height:2;
+
+    margin-bottom:25px;
+
+}
+
+.team-info ul{
+
+    margin:40px 0;
+
+    padding-left:22px;
+
+}
+
+.team-info li{
+
+    margin-bottom:14px;
+
+}
+
+.reverse .team-photo{
+
+    order:2;
+
+}
+
+.reverse .team-info{
+
+    order:1;
+
+}
+/*==================================================
+                FILOSOFÍA
+==================================================*/
+
+.philosophy{
+
+    padding:150px 0;
+
+    background:#F8F6F1;
+
+}
+
+.philosophy .container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+.philosophy h2{
+
+    text-align:center;
+
+    font-size:4rem;
+
+    color:#2F2F2F;
+
+    margin:25px 0 45px;
+
+    line-height:1.1;
+
+}
+
+.section-intro{
+
+    max-width:900px;
+
+    margin:0 auto 30px;
+
+    text-align:center;
+
+    font-size:1.1rem;
+
+    line-height:2;
+
+    color:#666;
+
+}
+
+.philosophy-editorial{
+
+    max-width:1000px;
+
+    margin:90px auto 0;
+
+}
+
+.editorial-item{
+
+    display:grid;
+
+    grid-template-columns:130px 1fr;
+
+    gap:60px;
+
+    align-items:flex-start;
+
+    padding:55px 0;
+
+}
+
+.editorial-number{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:4rem;
+
+    color:#C2A06B;
+
+    line-height:1;
+
+    font-weight:300;
+
+}
+
+.editorial-content h3{
+
+    font-size:2rem;
+
+    color:#2F2F2F;
+
+    margin-bottom:18px;
+
+}
+
+.editorial-content p{
+
+    margin:0;
+
+    font-size:1.08rem;
+
+    line-height:2;
+
+    color:#666;
+
+}
+
+.editorial-divider{
+
+    height:1px;
+
+    width:100%;
+
+    background:#E8DFD2;
+
+}
+@media(max-width:768px){
+
+.philosophy{
+
+    padding:90px 0;
+
+}
+
+.philosophy h2{
+
+    font-size:2.6rem;
+
+}
+
+.editorial-item{
+
+    grid-template-columns:1fr;
+
+    gap:25px;
+
+}
+
+.editorial-number{
+
+    font-size:3rem;
+
+}
+
+.editorial-content h3{
+
+    font-size:1.7rem;
+
+}
+/*==================================================
+                FAQ
+==================================================*/
+
+.faq{
+
+    padding:150px 0;
+
+    background:#F8F6F1;
+
+}
+
+.faq .container{
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.faq h2{
+
+    font-size:4rem;
+
+    text-align:center;
+
+    margin:25px 0;
+
+}
+
+.faq-intro{
+
+    text-align:center;
+
+    max-width:700px;
+
+    margin:0 auto 80px;
+
+    line-height:2;
+
+    color:#666;
+
+}
+
+.faq details{
+
+    border-bottom:1px solid #E8DFD2;
+
+    padding:25px 0;
+
+}
+
+.faq summary{
+
+    cursor:pointer;
+
+    list-style:none;
+
+    font-size:1.2rem;
+
+    font-weight:600;
+
+    color:#2F2F2F;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.faq summary::after{
+
+    content:"+";
+
+    font-size:2rem;
+
+    color:#C2A06B;
+
+}
+
+.faq details[open] summary::after{
+
+    content:"−";
+
+}
+
+.faq details p{
+
+    margin-top:20px;
+
+    line-height:2;
+
+    color:#666;
+
+}
+.faq{
+
+    padding:90px 25px;
+
+}
+
+.faq h2{
+
+    font-size:2.6rem;
+
+}
+
+.faq summary{
+
+    font-size:1.05rem;
+
+}
+}
+@media(max-width:650px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
