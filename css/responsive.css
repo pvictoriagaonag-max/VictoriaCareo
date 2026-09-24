@@ -1,5 +1,5 @@
 /* =====================================================
-   RESPONSIVE VICTORIA CARE
+   RESPONSIVE VICTORIA GAONA CARE
 ===================================================== */
 
 /* ---------- 1200px ---------- */
@@ -68,7 +68,7 @@ text-align:center;
 }
 
 .hero-content{
-padding-top:180px;
+padding-top:140px;
 }
 
 .hero h1{
@@ -88,6 +88,13 @@ justify-content:center;
 }
 
 /* ABOUT */
+.about{
+
+    margin-top:0;
+
+    padding-top:60px;
+
+}
 
 .about h2{
 font-size:3.2rem;
@@ -171,7 +178,12 @@ width:100%;
 
 .hero{
 min-height:auto;
-padding:120px 0 80px;
+padding:120px 0 60px;
+}
+.hero{
+
+    margin-bottom:0;
+
 }
 
 .hero h1{
